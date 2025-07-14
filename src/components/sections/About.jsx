@@ -137,10 +137,10 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    Junior Backend Developer at FlexiDigit Technologies LLP
+                    Backend Developer at FlexiDigit Technologies LLP
                     (May 2024 - May 2025)
                   </h4>
-                  <p>Developed and maintained scalable backend APIs.</p>
+                  <p>Developed and maintained scalable backend APIs, and actively contributed to frontend module development. </p>
                 </div>
 
                 <div>
