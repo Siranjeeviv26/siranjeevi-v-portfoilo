@@ -5,7 +5,9 @@ import {
   SiJavascript,
   SiReact,
   SiNodedotjs,
+  SiTailwindcss,
   SiExpress,
+  SiMongodb,
 } from "react-icons/si";
 
 const techIcons = {
@@ -15,6 +17,8 @@ const techIcons = {
   ReactJS: <SiReact className="text-cyan-400 text-lg" />,
   NodeJS: <SiNodedotjs className="text-green-500 text-lg" />,
   ExpressJS: <SiExpress className="text-gray-300 text-lg" />,
+  TailwindCSS: <SiTailwindcss className="text-teal-400 text-lg" />,
+  MangoDB: <SiMongodb className="text-green-600 text-lg" />,
 };
 
 export const Projects = () => {
@@ -64,11 +68,11 @@ export const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-2">GYM Website</h3>
               <p className="text-gray-400 mb-4">
-                Designed a responsive frontend using ReactJS (Vite) and Tailwind
+                Developed a responsive frontend using ReactJS (Vite) and Tailwind
                 CSS to provide a modern, user-friendly interface.
               </p>
               <div className="flex gap-2 flex-wrap">
-                {["ReactJS", "NodeJS", "ExpressJS"].map((tech) => (
+                {["ReactJS", "TailwindCSS"].map((tech) => (
                   <span
                     key={tech}
                     className="flex items-center gap-2 bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
@@ -89,13 +93,12 @@ export const Projects = () => {
 
             {/* Project 3
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+              <h3 className="text-xl font-bold mb-2">Notes App</h3>
               <p className="text-gray-400 mb-4">
-                Designed a responsive frontend using ReactJS (Vite) and Tailwind
-                CSS to provide a modern, user-friendly interface.
+                Developed a responsive MERN Stack user-friendly interface. where we can store are beautful days with pic's and notes
               </p>
               <div className="flex gap-2 flex-wrap">
-                {["ReactJS", "NodeJS", "ExpressJS"].map((tech) => (
+                {["ReactJS", "TailwindCSS", "NodeJS", "ExpressJS", "MangoDB"].map((tech) => (
                   <span
                     key={tech}
                     className="flex items-center gap-2 bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
@@ -112,7 +115,7 @@ export const Projects = () => {
                   View Project
                 </a>
               </div>
-            </div> */}
+            </div>  */}
           </div>
         </div>
       </RevealOnScroll>
