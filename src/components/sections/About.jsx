@@ -7,13 +7,13 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiExpress,
-  //SiHapi,
+  SiHapijs, // Corrected from SiHapi to SiHapijs
   SiPython,
   SiDotnet,
   SiPostman,
   SiMysql,
   SiMongodb,
-  SiMicrosoftsqlserver,
+  SiMicrosoft, // Using Microsoft icon for SQL Server
 } from "react-icons/si";
 import collegeLogo from "../../assets/college_logo.png";
 import drdoLogo from "../../assets/Defence_Research_and_Development_Organisation.svg";
@@ -28,19 +28,19 @@ const techIcons = {
   TailwindCSS: <SiTailwindcss className="text-teal-400 text-lg" />,
   NodeJs: <SiNodedotjs className="text-green-500 text-lg" />,
   ExpressJs: <SiExpress className="text-gray-300 text-lg" />,
-  //HapiJs: <SiHapi className="text-gray-300 text-lg" />,
+  HapiJs: <SiHapijs className="text-gray-300 text-lg" />, // Updated to SiHapijs
   Python: <SiPython className="text-yellow-300 text-lg" />,
   ".NET": <SiDotnet className="text-purple-400 text-lg" />,
   Postman: <SiPostman className="text-orange-400 text-lg" />,
   MySQL: <SiMysql className="text-blue-600 text-lg" />,
   MongoDB: <SiMongodb className="text-green-600 text-lg" />,
-  SQLServer: <SiMicrosoftsqlserver className="text-red-500 text-lg" />, // Added SQL Server
+  SQLServer: <SiMicrosoft className="text-red-500 text-lg" />, // Using Microsoft icon
 };
 
 export const About = () => {
   const frontendSkills = ["HTML", "CSS", "ReactJs", "JavaScript", "TailwindCSS"];
   const backendSkills = ["NodeJs", "ExpressJs", "HapiJs", "Python", ".NET", "Postman"];
-  const dataBaseSkills = ["MySQL", "MongoDB", "SQLServer"]; // Added SQLServer
+  const dataBaseSkills = ["MySQL", "MongoDB", "SQLServer"];
 
   return (
     <section id="about" className="min-h-screen flex items-center justify-center py-20">
