@@ -85,7 +85,7 @@ export const Contact = () => {
           </div>
           
           {/* Contact Form */}
-          <div className="lg:w-3/5">
+          {/* <div className="lg:w-3/5">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center lg:text-left">
               Get In Touch
             </h2>
@@ -143,7 +143,7 @@ export const Contact = () => {
                 Send Message
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </RevealOnScroll>
     </section>

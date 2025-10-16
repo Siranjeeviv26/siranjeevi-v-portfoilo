@@ -7,14 +7,14 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiExpress,
-  SiHapijs, // Corrected from SiHapi to SiHapijs
   SiPython,
   SiDotnet,
   SiPostman,
   SiMysql,
   SiMongodb,
-  SiMicrosoft, // Using Microsoft icon for SQL Server
 } from "react-icons/si";
+// Import MUI icons
+import { Api, Storage } from "@mui/icons-material"; // Api for Hapi.js, Storage for SQL Server
 import collegeLogo from "../../assets/college_logo.png";
 import drdoLogo from "../../assets/Defence_Research_and_Development_Organisation.svg";
 import flexidigitlogo from "../../assets/flexidigit_logo.jfif";
@@ -28,13 +28,13 @@ const techIcons = {
   TailwindCSS: <SiTailwindcss className="text-teal-400 text-lg" />,
   NodeJs: <SiNodedotjs className="text-green-500 text-lg" />,
   ExpressJs: <SiExpress className="text-gray-300 text-lg" />,
-  HapiJs: <SiHapijs className="text-gray-300 text-lg" />, // Updated to SiHapijs
+  HapiJs: <Api className="text-gray-300 text-lg" />, // MUI Api icon for Hapi.js
   Python: <SiPython className="text-yellow-300 text-lg" />,
   ".NET": <SiDotnet className="text-purple-400 text-lg" />,
   Postman: <SiPostman className="text-orange-400 text-lg" />,
   MySQL: <SiMysql className="text-blue-600 text-lg" />,
   MongoDB: <SiMongodb className="text-green-600 text-lg" />,
-  SQLServer: <SiMicrosoft className="text-red-500 text-lg" />, // Using Microsoft icon
+  SQLServer: <Storage className="text-red-500 text-lg" />, // MUI Storage icon for SQL Server
 };
 
 export const About = () => {
