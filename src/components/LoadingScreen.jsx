@@ -32,12 +32,11 @@
 //   );
 // };
 
-
 import { useEffect, useState } from "react";
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "<Hello World/>";
+  const fullText = "Loading..."; // Changed text
 
   useEffect(() => {
     let index = 0;
@@ -49,27 +48,71 @@ export const LoadingScreen = ({ onComplete }) => {
         clearInterval(interval);
         setTimeout(() => {
           onComplete();
-        }, 1000);
+        }, 800); // Slightly faster transition
       }
-    }, 100);
+    }, 150); // Slightly slower for dramatic effect
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="fixed inset-0 z-50 bg-gradient-to-br from-teal-800 via-emerald-900 to-black text-gray-100 flex flex-col items-center justify-center transition-all duration-700">
-      {/* Animated text */}
-      <div className="mb-8 text-5xl font-mono font-bold tracking-wide text-center animate-pulse drop-shadow-[0_0_10px_rgba(45,212,191,0.8)]">
+      
+      {/* Animated typewriter text */}
+      <div className="mb-12 text-5xl font-mono font-bold tracking-wider text-center text-teal-200 drop-shadow-[0_0_15px_rgba(45,212,191,0.9)]">
         {text}
+        <span className="animate-pulse">|</span> {/* Cursor effect */}
       </div>
 
       {/* Loading bar container */}
-      <div className="w-[250px] h-[4px] bg-gray-800 rounded-full relative overflow-hidden shadow-inner">
-        <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-emerald-500 to-teal-400 animate-[loading_1.2s_linear_infinite]" />
+      <div className="w-[300px] h-[6px] bg-gray-800 rounded-full relative overflow-hidden shadow-inner">
+        <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-emerald-500 to-teal-400 animate-[loading_1.5s_linear_infinite]" />
       </div>
 
-      {/* Optional subtle glow circle */}
+      {/* Optional glowing circles for depth */}
       <div className="absolute w-72 h-72 rounded-full blur-3xl opacity-30 bg-teal-500 animate-pulse" />
+      <div className="absolute w-48 h-48 rounded-full blur-2xl opacity-20 bg-emerald-400 animate-pulse" />
     </div>
   );
 };
+
+// import { useEffect, useState } from "react";
+
+// export const LoadingScreen = ({ onComplete }) => {
+//   const [text, setText] = useState("");
+//   const fullText = "<Hello World/>";
+
+//   useEffect(() => {
+//     let index = 0;
+//     const interval = setInterval(() => {
+//       setText(fullText.substring(0, index));
+//       index++;
+
+//       if (index > fullText.length) {
+//         clearInterval(interval);
+//         setTimeout(() => {
+//           onComplete();
+//         }, 1000);
+//       }
+//     }, 100);
+
+//     return () => clearInterval(interval);
+//   }, []);
+
+//   return (
+//     <div className="fixed inset-0 z-50 bg-gradient-to-br from-teal-800 via-emerald-900 to-black text-gray-100 flex flex-col items-center justify-center transition-all duration-700">
+//       {/* Animated text */}
+//       <div className="mb-8 text-5xl font-mono font-bold tracking-wide text-center animate-pulse drop-shadow-[0_0_10px_rgba(45,212,191,0.8)]">
+//         {text}
+//       </div>
+
+//       {/* Loading bar container */}
+//       <div className="w-[250px] h-[4px] bg-gray-800 rounded-full relative overflow-hidden shadow-inner">
+//         <div className="absolute inset-0 bg-gradient-to-r from-teal-400 via-emerald-500 to-teal-400 animate-[loading_1.2s_linear_infinite]" />
+//       </div>
+
+//       {/* Optional subtle glow circle */}
+//       <div className="absolute w-72 h-72 rounded-full blur-3xl opacity-30 bg-teal-500 animate-pulse" />
+//     </div>
+//   );
+// };
