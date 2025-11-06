@@ -16,9 +16,9 @@ function App() {
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{""}
-        <div className={`min-h-screen transition-opacity duration-700 ${
-  isLoaded ? "opacity-100" : "opacity-0"
-  } bg-gradient-to-br from-teal-800 via-emerald-900 to-black`}>
+      <div className={`min-h-screen transition-opacity duration-700 ${
+        isLoaded ? "opacity-100" : "opacity-0"
+      } bg-gradient-to-br from-emerald-200 via-cyan-100 to-blue-200`}>
           
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -26,7 +26,7 @@ function App() {
           <About />
           <Projects />
           <Contact />
-        </div>
+      </div>
     </>
   );
 }
