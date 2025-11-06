@@ -90,10 +90,9 @@ export const About = () => {
             className="p-6 rounded-2xl border border-teal-500/20 bg-white/80 backdrop-blur-md shadow-lg hover:shadow-[0_0_20px_rgba(20,184,166,0.3)] transition-all duration-500"
           >
             <p className="text-gray-700 mb-6 text-sm leading-relaxed">
-              As a Full-Stack Developer with a strong foundation in backend engineering and hands-on experience
-              in building responsive, user-friendly frontends. With 1 year 8 months of professional experience,
-              I've contributed to the development of scalable and secure systems across diverse domains including
-              e-commerce, warehouse management, HR systems, and hotel administration.
+              A results-driven Full Stack Developer with expertise in the MERN stack and .NET, specializing in building scalable and high-performance web applications. 
+              I have a proven track record of leading backend re-architecting initiatives with Node.js and Hapi.js, and designing intuitive front-end interfaces with React.js. 
+              My experience spans developing secure RESTful APIs, integrating cloud solutions on Microsoft Azure, and managing databases like MongoDB and MS SQL Server to deliver robust, end-to-end solutions
             </p>
 
             {/* Skill Sections */}
@@ -212,7 +211,7 @@ export const About = () => {
                   <img src={prosperoustechLogo} alt="prosperoustechLogo" className="w-8 h-8 object-contain rounded mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Junior Software Engineer – PROSPEROUSTECH (Sep 2025 – Present)</h4>
-                    <p className="mt-1 text-gray-600">Developed and maintained scalable backend APIs and contributed to frontend modules.</p>
+                    <p className="mt-1 text-gray-600">Developed and maintained scalable backend APIs, and collaborated on integrations with frontend modules.</p>
                   </div>
                 </div>
                 
@@ -221,7 +220,7 @@ export const About = () => {
                   <img src={dmediaLogo} alt="dmedia Logo" className="w-8 h-8 object-contain rounded mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800">Full Stack Developer – D-Media (Aug 2025 – Sep 2025)</h4>
-                    <p className="mt-1 text-gray-600">Developed and maintained scalable backend APIs and contributed to frontend modules.</p>
+                    <p className="mt-1 text-gray-600">Designed and implemented scalable backend APIs while enhancing frontend and backend modules to improve performance, maintainability, and user experience.</p>
                   </div>
                 </div>
                 

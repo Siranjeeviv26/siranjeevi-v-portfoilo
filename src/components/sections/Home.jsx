@@ -74,11 +74,9 @@ export const Home = () => {
             custom={2}
             className="text-gray-700 text-lg mb-10 max-w-2xl mx-auto leading-relaxed"
           >
-            I'm a <span className="text-teal-700 font-semibold">Full-Stack Developer</span> with
-            hands-on experience in building robust backend systems and crafting
-            responsive, user-friendly interfaces. From designing RESTful APIs to
-            developing dynamic frontends, I deliver end-to-end web solutions that
-            make an impact.
+            A <span className="text-teal-700 font-semibold">Full-Stack Developer</span> crafting robust digital solutions. 
+            I specialize in turning complex problems into scalable, efficient applications using the MERN stack and .NET. 
+            From leading backend re-architectures with Node.js to building dynamic interfaces with React.js, I bridge the gap between idea and execution in the cloud.
           </motion.p>
 
           <motion.div
