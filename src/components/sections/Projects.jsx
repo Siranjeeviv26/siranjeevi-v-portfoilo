@@ -109,7 +109,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-teal-700 hover:text-cyan-600 font-medium transition-colors duration-300"
                   >
-                    View Project →
+                    View Demo →
                   </a>
                 </div>
               </div>
@@ -161,7 +161,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-teal-700 hover:text-cyan-600 font-medium transition-colors duration-300"
                   >
-                    View Project →
+                    View Demo →
                   </a>
                 </div>
               </div>
@@ -219,7 +219,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-teal-700 hover:text-cyan-600 font-medium transition-colors duration-300"
                   >
-                    View Project →
+                    View Demo →
                   </a>
                 </div>
               </div>
@@ -273,7 +273,7 @@ export const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-teal-700 hover:text-cyan-600 font-medium transition-colors duration-300"
                   >
-                    View Project →
+                    View Demo →
                   </a>
                 </div>
               </div>
