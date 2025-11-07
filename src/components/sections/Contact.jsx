@@ -13,11 +13,12 @@ export const Contact = () => {
   };
 
   return (
+    // <section
+    //   id="contact" className="min-h-screen flex items-center justify-center py-20 bg-gradient-to-br from-emerald-200 via-cyan-100 to-blue-200" >
     <section
-      id="contact"
-      className="min-h-screen flex items-center justify-center py-20 
-                 bg-gradient-to-br from-emerald-200 via-cyan-100 to-blue-200"
-    >
+      id="contact" className="min-h-screen flex items-center justify-center py-20" >
+
+
       {/* Background Glow Effect */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-1/3 left-1/2 w-[600px] h-[600px] 

@@ -16,11 +16,14 @@ export const Home = () => {
   const resumeLink = "https://drive.google.com/file/d/12kKfIYNCHfMpFLF69vhz1E8kQg4RYr1H/view?usp=drive_link";
 
   return (
+    // <section
+    //   id="home"
+    //   className="min-h-screen w-full flex items-center justify-center relative py-20 
+    //              bg-gradient-to-br from-emerald-200 via-cyan-100 to-blue-200"
+    // >
     <section
       id="home"
-      className="min-h-screen w-full flex items-center justify-center relative py-20 
-                 bg-gradient-to-br from-emerald-200 via-cyan-100 to-blue-200"
-    >
+      className="min-h-screen w-full flex items-center justify-center relative py-20 ">
       {/* Background Glow Effect */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-1/3 left-1/2 w-[600px] h-[600px] 

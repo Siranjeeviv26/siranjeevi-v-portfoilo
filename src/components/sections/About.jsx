@@ -56,11 +56,14 @@ export const About = () => {
   const dataBaseSkills = ["MySQL", "MongoDB", "SQLServer"];
 
   return (
+    // <section
+    //   id="about"
+    //   className="min-h-screen flex items-center justify-center py-20 bg-gradient-to-br from-emerald-200 via-cyan-100 to-blue-200">
+
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-20 
-                 bg-gradient-to-br from-emerald-200 via-cyan-100 to-blue-200"
-    >
+      className="min-h-screen flex items-center justify-center py-20 ">
+
       {/* Background Glow Effect */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-1/3 left-1/2 w-[600px] h-[600px] 
@@ -204,9 +207,11 @@ export const About = () => {
               viewport={{ once: true }}
               className="p-6 rounded-2xl border border-teal-500/20 bg-white/80 backdrop-blur-md hover:-translate-y-1 transition-all duration-500 hover:shadow-[0_0_20px_rgba(20,184,166,0.3)]"
             >
-              {/* ProsperousTech */}
+              
               <h3 className="text-lg font-semibold mb-4 text-teal-700">Work Experience</h3>
               <div className="space-y-4 text-sm text-gray-700">
+
+                {/* ProsperousTech */}
                 <div className="flex items-start gap-3">
                   <img src={prosperoustechLogo} alt="prosperoustechLogo" className="w-8 h-8 object-contain rounded mt-1 flex-shrink-0" />
                   <div>
