@@ -207,7 +207,6 @@ export const About = () => {
               viewport={{ once: true }}
               className="p-6 rounded-2xl border border-teal-500/20 bg-white/80 backdrop-blur-md hover:-translate-y-1 transition-all duration-500 hover:shadow-[0_0_20px_rgba(20,184,166,0.3)]"
             >
-              
               <h3 className="text-lg font-semibold mb-4 text-teal-700">Work Experience</h3>
               <div className="space-y-4 text-sm text-gray-700">
 
@@ -224,7 +223,7 @@ export const About = () => {
                 <div className="flex items-start gap-3">
                   <img src={dmediaLogo} alt="dmedia Logo" className="w-8 h-8 object-contain rounded mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-gray-800">Full Stack Developer – D-Media (Aug 2025 – Sep 2025)</h4>
+                    <h4 className="font-semibold text-gray-800">Full Stack Developer – D-Media (Jul 2025 – Sep 2025)</h4>
                     <p className="mt-1 text-gray-600">Designed and implemented scalable backend APIs while enhancing frontend and backend modules to improve performance, maintainability, and user experience.</p>
                   </div>
                 </div>
