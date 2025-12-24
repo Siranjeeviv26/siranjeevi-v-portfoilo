@@ -13,7 +13,7 @@ export const Home = () => {
   };
 
   // Google Drive resume link
-  const resumeLink = "https://drive.google.com/file/d/12kKfIYNCHfMpFLF69vhz1E8kQg4RYr1H/view?usp=drive_link";
+  const resumeLink = "https://drive.google.com/file/d/1t3rvOLKo_Su5y6YImP2gC4_w449pm99R/view?usp=sharing";
 
   return (
     // <section
